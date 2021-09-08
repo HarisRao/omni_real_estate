@@ -1,0 +1,77 @@
+#img-upload{
+    cursor: pointer;
+    border: thin dashed;
+    color: grey;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+  
+    border-radius: 12px;
+    filter: drop-shadow(0 0 2.5px rgba(19,19,19,0.16));
+    background-image: radial-gradient(circle at center, #1f4169 0%, #122e53 100%);
+  }
+.bg-color{
+  background-image: radial-gradient(circle at center, #1f4169 0%, #122e53 100%);
+  font-size: 16px;
+  height: 45px;
+}
+.bg-color:focus{
+  background: #122e53 ;
+  background-image: radial-gradient(circle at center, #1f4169 0%, #122e53 100%);
+  box-shadow: none !important;
+}
+#descript{
+  background-image: radial-gradient(circle at center, #1f4169 0%, #122e53 100%);
+  font-size: 16px;
+}
+#descript::placeholder{
+  color:white !important
+}
+#descript:focus,#descript:hover{
+  box-shadow: none !important;
+  border-radius: 5px !important;
+}
+
+.payment-token{
+  display: inline-flex;
+  box-shadow:inset 0 0 30px grey;
+  -moz-box-shadow:inset 0 0 30px grey;
+  -webkit-box-shadow:inset 0 0 30px grey;
+  border-radius: 20px 10px 10px 20px;
+  background-color: #122e53;
+}
+
+.payment-token-bnb{
+  height: 40px;
+}
+#create-save-btn{
+  background:radial-gradient(#122e53,#204169);
+  color:white !important;
+  border-radius: 20px;
+  padding: 8px 28px;
+  font-size: 22px;
+}
+
+
+#inputlocation,#inputbed,#inputbath,#inputsize,#inputarea,#inputusernameCreate{
+background:radial-gradient(#122e53,#204169);
+height: 45px;
+}
+#inputlocation:focus,#inputbed:focus,#inputbath:focus,#inputsize:focus,#inputarea:focus,#inputusernameCreate:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+#inputlocation::placeholder,#inputbed::placeholder,#inputbath::placeholder,#inputsize::placeholder,#inputarea::placeholder,#inputusernameCreate::placeholder{
+  color:white !important
+}
+
+.CreateCoin{
+  font-size:22px;
+   color:white;
+   font-weight:450 !important
+}
+#input-color{
+  color:#122e53;
+  font-weight:22px
+}

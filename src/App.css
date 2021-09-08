@@ -1,38 +1,314 @@
-.App {
-  text-align: center;
+.navbar,
+#footer {
+  background: url("../src/images/footerbg.jpg") no-repeat top;
+  background-size: cover;
+}
+.nav-link {
+  padding: 4px 20px !important;
+}
+.navbar-collapse {
+  padding-left: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#bg {
+  background-color: rgb(248, 248, 248);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+span {
+  font-weight: 300 !important;
+}
+#border {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2px 5px #e9e9e9;
+}
+@media (min-width:340px) and (max-width:470px){
+  #border,#nft-num{
+    font-size: 11px !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@media (min-width:290px) and (max-width:339px){
+  #border,#nft-num{
+    font-size: 9px !important;
+  }
+}
+.py-1:hover {
+  background-color: #122e53;
+  border-radius: 20px;
   color: white;
+  cursor: pointer;
+}
+.card-subtitle {
+  background-color: #122e53;
+  border-radius: 8px;
+}
+.card {
+  border-radius: 10px;
+}
+.card-img-top {
+  border-radius: 10px;
+}
+.card-text {
+  font-weight: 400 !important;
+}
+@media (min-width:992px) and (max-width:1048px){
+  .card-text{
+    font-size:15px !important
+  }
+}
+#span_weight {
+  font-weight: 500 !important;
+}
+#span_color {
+  color: #dbb35c !important;
+}
+#underline {
+  text-decoration: underline;
+}
+i {
+  color: #dbb35c !important;
+}
+.fa-stack-1x{
+  color: #dbb35c !important;
+  cursor: pointer;
+}
+.footer {
+  border-top: 1px solid #7c7a5b;
+}
+.fluid-container {
+  overflow-x: hidden;
+}
+.nav-item.item {
+  border-bottom: 1px solid #dbbd5a;
+}
+#modal_box {
+  border: 1px solid #baa759 !important;
+  background-color: #122e55 !important;
+  color: white !important;
+  border-radius: 12px !important;
+}
+.react-responsive-modal-modal {
+  padding: 0px !important;
+  margin: 0px !important;
+  border-radius: 12px !important;
+  width: 30% !important;
+}
+.react-responsive-modal-modal .react-responsive-modal-closeButton {
+  border: 1px solid #122e55 !important;
+  /* color:white !important; */
+  margin-top: 4px !important;
+  margin-right: 12px !important;
+  display: none;
+  /* border:none !important; */
+  /* box-shadow:none !important; */
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 767px) {
+  .react-responsive-modal-modal {
+    width: 90% !important;
+  }
+}
+@media (max-width: 1023px) {
+  .react-responsive-modal-modal {
+    width: 70% !important;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* .modal-open {
+  overflow: hidden !important;
+} */
+#wallet_heading {
+  padding-bottom: 15px !important;
+  padding-left: 30px !important;
+}
+#border-bottom{
+  border-bottom: 2px solid #baa759 !important;
+
+}
+
+#wallet-contents {
+  background-color: #baa759 !important;
+  border-radius: 10px !important;
+  margin-top: 10px !important;
+}
+#wallet_names {
+  padding-top: 12px !important;
+}
+#question_mark {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#learn_to_connect{
+  text-decoration: none;
+}
+.fa-times{
+  cursor: pointer;
+
+}
+/* #back_to:hover{
+  text-decoration: none !important;
+} */
+/* #back_to_top{
+  scroll-behavior: smooth !important;
+} */
+/* #back-to-top{
+  scroll-behavior: smooth;
+} */
+
+
+@media (min-width:290px) and (max-width:600px){
+#sampleTab_size,#wallet_address{
+  font-size: 14px !important;
+}}
+
+@media (min-width:290px) and (max-width:600px){
+  #wallet_number{
+    font-size: 16px !important;
   }
-  to {
-    transform: rotate(360deg);
   }
+  
+  #footer-after-line{
+    font-size: 12px !important;
+  }
+
+  @media (min-width:1030px) and (max-width:2048px){
+    #footer-after-line{
+      font-size: 16px !important;
+    }
+    }
+  #icon-align-last{
+    text-align-last: left;
+  }
+
+
+/* tabs */
+
+.settings-tab{
+    padding: 12px 12px;
+    cursor: pointer;
+}
+
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  /* border: 1px solid #122e53 !important; */
+  color:white !important
+}
+.nav-tabs .nav-link:hover{
+  background: #122e53!important;
+  color:white !important
+
+
+}
+    
+#wallet-div{
+  border-radius: 8px;
+  width:80%;
+  background-color: #122e53 !important;  
+  -moz-box-shadow:inset 0 0 15px #122e59;
+  -webkit-box-shadow:inset 0 0 15px  #122e59;
+  box-shadow:inset 0 0 15px  #122e59;
+  border: none;
+  word-break: break-all;
+  padding: 10px 0px 10px 0px;
+}
+#fa-copy{
+  position: absolute;
+  top:34%;
+  right: 22%;
+  font-size: 18px;
+  color:white !important;
+  cursor: pointer;
+}
+
+#copy-text{
+  color: black !important;
+  position: absolute !important;
+  right: 20% !important;
+  top:22% !important;
+  font-weight: 500 !important;
+}
+  
+#image-bg-circle{
+  border-radius: 50%;
+  border: 2px dashed #122e63 !important;
+  object-fit: none;
+  background:radial-gradient(#122e53,#204169);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+}
+#circular-image{
+  width:30%
+}
+#inputusername,#inputemail,#textareabio{
+  background:radial-gradient(#122e53,#204169);
+
+}
+#inputusername:focus,#inputemail:focus,#textareabio:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+#inputusername::placeholder,#inputemail::placeholder,#textareabio::placeholder{
+  color:white !important
+}
+#settings-save-btn{
+  background:radial-gradient(#122e53,#204169);
+  color:white !important;
+  border-radius: 20px;
+  padding: 6px 26px;
+
+}
+@media (max-width:768px){
+  #copy-text{ 
+    top:20% !important;
+  }
+
+}
+@media (max-width:496px){
+  #fa-copy{ 
+    top:55% !important;
+  }
+  #copy-text{ 
+    top:22% !important;
+  }
+
+}
+
+#nav-profile{
+  color:white !important;
+  font-size: 24px;
+}
+
+html{
+  overflow-x: hidden !important;
+}
+#profileSignIn{
+  color:white;
+  background-color: #122e53;
+  border-radius: 15px;
+  font-size: 22px;
+}
+#profileSignIn:focus{
+  border: none !important;
+  box-shadow: none !important;
+}
+body{
+  overflow-x: hidden !important;
+}
+
+/*navbar dropdown*/
+#dropdown-nav{
+  background: #122e53 !important;
+  border:1px solid white !important;
+  border-radius: 10px !important;
+}
+
+.dropdown-nav-profile>button+div>button{
+  display: flex !important;
+  justify-content: center !important;
+}
+.dropdown-nav-profile>button{
+  background-color: #122e53 !important;
+  box-shadow: none !important;
 }
